@@ -1,6 +1,7 @@
 body {
    margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 600px;
 }
 
 h1,
@@ -105,6 +106,7 @@ img {
 .introducao-bg {
    background: #000000;
    color: #ffffff;
+   box-shadow: inset 0 -120px #ffffff;
 }
 
 .introducao {
@@ -121,7 +123,13 @@ img {
 
 .introducao-conteudo {
    align-self: end;
-   padding-bottom: 80px;
+   padding-bottom: 200px;
+}
+
+.introducao img {
+   height: 100%;
+   object-fit: cover;
+   border-radius: 4px;
 }
 
 .introducao h1 {
@@ -131,22 +139,22 @@ img {
 }
 
 .introducao h1 span {
-   color: #FFBB00;
+   color: #ffbb00;
 }
 
 .introducao p {
    margin-bottom: 20px;
    font-size: 24px;
    line-height: 1.5;
-   color: #B2B2B2;
+   color: #b2b2b2;
 }
 
 .introducao a {
    padding: 16px 32px;
    display: inline-block;
-   background: linear-gradient(#FFBB00, #F2A50C);
+   background: linear-gradient(#ffbb00, #f2a50c);
    border-radius: 4px;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
    text-transform: uppercase;
    color: #332200;
    font-size: 18px;
@@ -155,5 +163,5 @@ img {
 }
 
 .introducao a:hover {
-   background: linear-gradient(#FFB60D, #E59317);
+   background: linear-gradient(#ffb60d, #e59317);
 }
