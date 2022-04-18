@@ -1,3 +1,3 @@
 # Bikcraft
 
-Final project of Origamid's HTML and CSS course for beginners. All content on the page is fictitious and for illustrative purposes only.
+The Bikcraft project was developed during Origamid's HTML and CSS course for beginners. During the course we learned concepts such as semantic HTML, optimization of CSS files and images.
